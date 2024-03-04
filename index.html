@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title></title>
+  <style>
+   form input{
+      margin-top: 10px;
+      margin-left: 80px;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <form action="#">
+    <h2 class="bg-red-700 w-40 h-10 text-white text-lg font-medium rounded ml-32 mt-2.5 text-center border-2">Delivery Address</h2>
+    <input class="pl-1.5 border-2 rounded h-11" type="text" placeholder="First name">
+    <input class="pl-1.5 border-2 h-11 rounded" type="text" placeholder="last name">
+    <input class="pl-1.5 border-2 rounded" type="text" placeholder="Phone number">
+    <input class="pl-1.5 border-2 rounded h-11" type="text" placeholder="City">
+    <input class="pl-1.5 border-2 rounded h-11" type="text" placeholder="Address">
+    <input class="pl-1.5 border-2 rounded h-11" type="text" placeholder="Zip/Postal Code">
+    <button class="border-2 block ml-32 mt-5 w-32 h-10 bg-red-700 text-white font-normal" id="btn">order</button>
+  </form>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+        }
+      }
+    }
+  }
+</script>
+</body>
+
+</html>
